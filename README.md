@@ -46,14 +46,36 @@ The project explores an ambiguous relationship between viewers and NPCs. A viewe
 
 ## 🛤️ Roadmap Tracker
 
-| Phase | Milestone | Status |
-| :--- | :--- | :--- |
-| **Phase 0** | **Planning & Architecture:** Staged building logic, LLM context mapping, and Patron-model definition. | 🟡 **CURRENT** |
-| **Phase 1** | **The Foundation (MVP):** Basic 2D world, NPC movement, Hunger/Energy stats, and `!join` command. | ⚪ PENDING |
-| **Phase 2** | **Industry & Economy:** Staged construction implementation, Farming/Fishing/Hunting loops, and Inventory. | ⚪ PENDING |
-| **Phase 3** | **The Brain (LLM):** Context-injection for decisions, social dialogue bubbles, and persistent memory. | ⚪ PENDING |
-| **Phase 4** | **Growth & Legacy:** Genetics, aging, reproduction cycles, and "Patron/Slime" persistence systems. | ⚪ PENDING |
-| **Phase 5** | **Chaos & Weather:** Dynamic weather, natural disasters (Fire/Lightning), and premium viewer triggers. | ⚪ PENDING |
+- [ ] **Phase 0: Planning & Architecture** 📝
+    - [x] Concept definition and "Live Village" branding.
+    - [x] Staged building dependency logic design.
+    - [ ] NPC State Machine & LLM context mapping.
+    - [ ] Patron/Viewer interaction model definition.
+
+- [ ] **Phase 1: The Foundation (MVP)** 🏗️
+    - [ ] Basic 2D Top-Down environment.
+    - [ ] NPC movement and Hunger/Energy stats.
+    - [ ] WebSocket integration for `!join` command.
+
+- [ ] **Phase 2: Industry & Economy** 🌲
+    - [ ] Staged Construction system (Foundation -> Walls -> Roof).
+    - [ ] Farming, Fishing, and Hunting loops.
+    - [ ] Inventory and basic autonomous trading logic.
+
+- [ ] **Phase 3: The Brain (LLM)** 🧠
+    - [ ] Context-injection for NPC decision making.
+    - [ ] Real-time speech bubble generation.
+    - [ ] Persistent NPC memory and relationship tracking.
+
+- [ ] **Phase 4: Growth & Legacy** 🧬
+    - [ ] Genetics and inheritance system.
+    - [ ] Aging and reproduction cycles.
+    - [ ] "Patron/Slime" persistence systems for viewers.
+
+- [ ] **Phase 5: Chaos & Weather** ⚡
+    - [ ] Dynamic weather system (Rain/Snow/Heatwave).
+    - [ ] Natural disasters (Lightning, Fire, Tornadoes).
+    - [ ] High-tier viewer interaction triggers.
 
 ---
 
