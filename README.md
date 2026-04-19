@@ -14,7 +14,7 @@ The core experience revolves around **Emergent Narrative**: watching a community
 ## 🧠 Core Systems
 
 ### 🏗️ Staged Construction
-Buildings are constructed through a logical dependency tree rather than manual voxel placement:
+Buildings are constructed through a logical dependency tree:
 * **Blueprint:** NPCs or the "Deity" (Viewer) select a plot.
 * **Foundation:** Requires Stone/Wood; defines the building's footprint.
 * **Framing & Walls:** Built component-by-component; blocks pathfinding once placed.
@@ -46,7 +46,7 @@ The project explores an ambiguous relationship between viewers and NPCs. A viewe
 
 ## 🛤️ Roadmap Tracker
 
-- [ ] **Phase 0: Planning & Architecture** 📝
+- [x] **Phase 0: Planning & Architecture** 📝
     - [x] Concept definition and "Live Village" branding.
     - [x] Staged building dependency logic design.
     - [ ] NPC State Machine & LLM context mapping.
