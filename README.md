@@ -12,7 +12,7 @@ The simulation runs autonomously with NPCs making logic-based decisions for surv
 ## 🧠 Core Systems
 
 ### 🏗️ Staged Construction
-To avoid the complexity of voxel-by-voxel building, structures follow a **Dependency-Based Construction** model:
+Structures follow a **Dependency-Based Construction** model:
 * **Foundation:** NPCs claim a plot and clear the land.
 * **Framing & Walls:** Requires gathered wood/stone; physically blocks paths.
 * **Roofing:** Finalizes the structure, enabling "Habitable" status (protects NPCs from cold/rain stat drains).
