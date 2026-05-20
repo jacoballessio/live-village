@@ -44,6 +44,21 @@ The project explores an ambiguous relationship between viewers and NPCs. A viewe
 
 ---
 
+## ▶️ Current MVP Build
+
+The current playable MVP now includes:
+* A **basic top-down village scene** (`res://live_village.tscn`) with camera and simple landmarks.
+* **Autonomous villagers** that wander and react to **Hunger/Energy** drains.
+* A **WebSocket chat bridge** that listens for `!join` and spawns a named villager.
+
+### Test `!join`
+1. Open `res://live_village.tscn` (or run project; it is now the default main scene).
+2. For direct local testing in scripts, call:
+    `get_node("ChatBridge").feed_chat_line("!join Alice")`
+3. Optional: set `ChatBridge.auto_connect = true` and point `websocket_url` to your chat relay server.
+
+---
+
 ## 🛤️ Roadmap Tracker
 
 - [x] **Phase 0: Planning & Architecture** 📝
@@ -52,10 +67,10 @@ The project explores an ambiguous relationship between viewers and NPCs. A viewe
     - [ ] NPC State Machine & LLM context mapping.
     - [ ] Patron/Viewer interaction model definition.
 
-- [ ] **Phase 1: The Foundation (MVP)** 🏗️
-    - [ ] Basic 2D Top-Down environment.
-    - [ ] NPC movement and Hunger/Energy stats.
-    - [ ] WebSocket integration for `!join` command.
+- [x] **Phase 1: The Foundation (MVP)** 🏗️
+    - [x] Basic 2D Top-Down environment.
+    - [x] NPC movement and Hunger/Energy stats.
+    - [x] WebSocket integration for `!join` command.
 
 - [ ] **Phase 2: Industry & Economy** 🌲
     - [ ] Staged Construction system (Foundation -> Walls -> Roof).
